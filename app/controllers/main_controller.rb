@@ -1,6 +1,14 @@
 class MainController < ApplicationController
     def index
     end
-    def project
+    def designing
+    end
+    def development
+    end
+    def mobile
+    end
+    def marketing
+    end
+    def contact
     end
 end
