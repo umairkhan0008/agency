@@ -2,6 +2,7 @@ class MainController < ApplicationController
     def index
     end
     def designing
+        @posts = Post.all
     end
     def development
     end

@@ -80,3 +80,5 @@ gem "devise", "~> 4.9"
 gem "faker", "~> 3.2"
 
 gem 'sassc-rails'
+
+gem 'ransack', '~> 4.1', '>= 4.1.1'
