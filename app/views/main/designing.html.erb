@@ -7,8 +7,8 @@
             <h2 class="pro-h">Our Creative for the Creative World</h2>
         </div><br/>
         <div class="box-1">
-        <% if @posts.designing %>
-            <% @posts.each do |post| %>
+        <% if @designing_posts && @designing_posts.any? %>
+        <% @designing_posts.each do |post| %>
             <div class="project">
                 <% if post.image.attached? %>
                 <%= image_tag url_for(post.image), class: "project-img"%>

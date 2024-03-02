@@ -22,8 +22,8 @@
     display: flex;
     border-radius: 5px;
     margin-top: 2rem;
-    border: 1px solid var(--color-c);
-    color: var(--color-c);
+    border: 1px solid var(--color-f);
+    color: var(--color-f);
 }
 button{
     background: none;
@@ -54,7 +54,7 @@ button{
     margin-left: 15px;
     margin-top: 3px;
     font-size:30px;
-    color: var(--color-c);
+    color: var(--color-f);
 }
 .btn-1{
     background: none;
@@ -67,8 +67,8 @@ button{
     color: var(--color-c);
 }
 .sidebar-container{
-    width: 250px;
-    height: 1080px;
+    width: 13.624vw;
+    height: 58.856vw;
     padding: 0px, 2px, 236px, 0px;
     border: 0px, 2px, 0px, 0px;
     background: var(--color-d);
@@ -76,7 +76,7 @@ button{
 }
 
 .logo{
-    width: 246px;
+    width: 13.406vw;
     height: 140px;
     padding: 0px, 155px, 0px, 50px;
 }
@@ -263,7 +263,12 @@ button{
     height: 600px;
     margin-top: 150px;
     border-radius: 5px;
-    border: 1px solid var(--color-c);
+    cursor: pointer;
+    transition: filter 0.3s ease 0.3s;
+}
+.project:hover{
+   box-shadow: 0 3px 7px 0 rgba(229, 224, 224, 0.2), 0 5px 15px 0 rgba(229, 224, 224, 0.2);
+
 }
 .pro-p{
     width: 356.26px;

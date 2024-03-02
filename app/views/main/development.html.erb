@@ -7,7 +7,9 @@
             <h2 class="pro-h">Actionable insights<br/> Real-world experience</h2>
         </div><br/>
         <div class="box-1">
-            <% @posts.each do |post| %>
+        
+        <% if @development_posts && @development_posts.any? %>
+        <% @development_posts.each do |post| %>
                 <div class="project">
                     <% if post.image.attached? %>
                     <%= image_tag url_for(post.image), class: "project-img"%>
@@ -15,6 +17,7 @@
                     <p class="pro-p-2"><%= post.title %></p>
                     <p class="pro-p1"><%= post.description%></p>
                 </div>
+                <% end %>
                 <% end %>
             </div>
         </div>
