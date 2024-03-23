@@ -1,12 +1,16 @@
 Rails.application.routes.draw do
+
   devise_for :admin_users, ActiveAdmin::Devise.config
-  ActiveAdmin.routes(self)
-  get 'designing', to: 'main#designing'
-  get 'development', to: 'main#development'
-  get 'mobile', to: 'main#mobile'
-  get 'marketing', to: 'main#marketing'
-  get 'contact', to: 'main#contact'
-  
-  
-  root "main#index"
+  ActiveAdmin.routes(self) 
+
+
+
+      get '/post', to: 'posts#post'
+      get '/marketing', to: 'posts#marketing'
+      get '/contact', to: 'posts#contact'
+      get '/posts/:id', to: 'posts#show', as: 'show_post'
+
+      
+
+  root "posts#index"
 end

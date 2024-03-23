@@ -1,0 +1,15 @@
+<%= turbo_frame_tag "modal" do %>
+    <div class="modal fade " tabindex="-1" data-controller="modal">
+      <div class="modal-dialog modal-dialog-centered modal-lg ">
+        <div class="modal-content ">
+          <div class="modal-container">
+            <button type="button" class="btn-close btn-close-white close" data-bs-dismiss="modal" aria-label="Close"></button>
+          </div>
+          <div class="modal-body modal-container" id="remote_modal_body" >
+            <%= yield %>
+            <%= render 'shared/modal'%>
+          </div>
+        </div>
+      </div>
+    </div>
+  <% end %>

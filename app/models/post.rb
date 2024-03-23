@@ -15,17 +15,4 @@ class Post < ApplicationRecord
   attribute :type
   self.inheritance_column = :post_type
 
-
-  def type_display
-    case self.type
-    when 'designing'
-      'Designing Type'
-    when 'development'
-      'Development Type'
-    when 'mobile'
-      'Mobile type'
-    else
-      'Unknown Type'
-    end
-  end
 end

@@ -1,0 +1,40 @@
+<div class="b-container">
+  <% if request.original_fullpath == '/post?type=designing'%>
+    <div class="box">      
+        <h1 class="pro-p">CREATIVE DESIGNING</h1>
+        <h2 class="pro-h">Our Creative for the Creative World</h2>
+    </div>
+
+  <% elsif request.original_fullpath == '/post?type=development'%>  
+    <div class="box">      
+        <h1 class="pro-p">WEB DEVELOPMENT</h1>
+        <h2 class="pro-h">Actionable Insights Real-World Experience</h2>
+    </div>
+
+  <% elsif request.original_fullpath == '/post?type=mobile'%>  
+    <div class="box">      
+        <h1 class="pro-p">MOBILE DEVELOPMENT</h1>
+        <h2 class="pro-h">Transforming Ideas Into Digital Experiences</h2>
+    </div>
+  <% end %>
+
+        <div class="box-1">
+        <% @posts.each do |post| %>
+                <div class="project">
+                    <% if post.image.attached? %>
+                        <%= image_tag url_for(post.image), class: "project-img"%>
+                    <% end %>    <br/>
+                    <p class="pro-p-2"><%= post.title %></p>
+                    <p class="pro-p1">
+                      <% description_words = post.description.split(' ') %>
+                      <% truncated_description = description_words.take(25).join(' ') %>
+                      <%= truncated_description %>...<%=  link_to "Read more",  show_post_path(post), data: {turbo_frame: 'modal'}, class:"color-r"%>
+                </div>
+                <% end %>
+        </div>
+    </div>
+    
+    
+
+    
+</div>
