@@ -7,26 +7,14 @@
     --color-f: #A2A2A2;
 
 }
-.nav-1{
-    margin-top: 8vh;
-}
+
 .color-r{
     color: (--color-c);
 }
 
-.ill-1{
-    width: 12vw;
-    height: 7vh;
-    list-style: none; 
-    display: flex;
-    border-radius: 5px;
-    margin-top: 2rem;
-    border: 1px solid gray;
-    color: var(--color-f);
-}
 .color-b{
     width: 3vw;
-    height: 6.7vh;
+    height: 3.4vw;
     background-color: var(--color-b);
     justify-content: center;
     align-items: center;
@@ -38,14 +26,14 @@ button{
     border: none;
 }
 .margin{
-    height: 72vh;
+    height: 26.5vw;
 }
 .lli-1 {
     width: 4.5vw;
-    height: 1.5vh;
+    height: 0.9vw;
     margin-top: 2.5vh;
     margin-left: 2vw;
-    font-size: 15.5px;
+    font-size: 14px;
     font-weight: 370;
     line-height: 12px;
     letter-spacing: 1px;
@@ -54,18 +42,51 @@ button{
     display: flex;
     text-decoration: none;
 }
-.cod-1{
-    width: 60px;
-    height: 60px;
+.ill-1{
+    width: 12vw;
+    height: 3.5vw;
+    list-style: none; 
+    display: flex;
     border-radius: 5px;
-    background: var(--color-b);
-    border: none;
-
-}
-.bi{
-    font-size:33px;
+    margin-top: 2rem;
+    border: 1px solid gray;
     color: var(--color-f);
 }
+.bi{
+    font-size:28px;
+    color: var(--color-f);
+}
+
+.sidebar-container{
+    width: 15vw;
+    height: 100vw;
+    padding: 0px, 2px, 236px, 0px;
+    border: 0px, 2px, 0px, 0px;
+    background: var(--color-d);
+    position: fixed;
+}
+
+.log h1{
+    margin-top: 1vw;
+    margin-left: 2vw;
+    color: var(--color-f);
+    font-family: Poppins;
+    font-size: 50px;
+    font-weight: 700;
+    line-height: 75px;
+    letter-spacing: 0em;
+    text-align: left;
+}
+.nav-1{
+    margin-top: 5vw;
+}
+.A-t{
+    text-decoration: none;
+    cursor: pointer;
+    transition: filter 0.3s ease 0.3s;
+}
+
+
 .btn-1{
     background: none;
     cursor: pointer;
@@ -76,40 +97,13 @@ button{
     border: 2px solid var(--color-c);
     color: var(--color-c);
 }
-.sidebar-container{
-    width: 15vw;
-    height: 100vh;
-    padding: 0px, 2px, 236px, 0px;
-    border: 0px, 2px, 0px, 0px;
-    background: var(--color-d);
-    position: fixed;
-}
 
-.logo{
-    width: 13.406vw;
-    height: 140px;
-    padding: 0px, 155px, 0px, 50px;
-}
-.log h1{
-    width: 42px;
-    height: 75px;
-    margin-top: 10px;
-    margin-left: 40px;
-    color: var(--color-f);
-    font-family: Poppins;
-    font-size: 50px;
-    font-weight: 700;
-    line-height: 75px;
-    letter-spacing: 0em;
-    text-align: left;
-}
 .b-container{
     max-height:fit-content;
-    padding-top:8vh;
     width: 100%;
     background: var(--color-b);
     overflow-y: scroll;
-    padding-bottom: 19.4vh;
+    padding-bottom: 28.5vh;
 }
 .b-container::-webkit-scrollbar{
     display: none;
@@ -117,18 +111,12 @@ button{
 }
 .img-size-2{
     width: 30vw;
-    height: 55vh;
-    margin-top: -22vh;
+    height: 30vw;
+    margin-top: -10vw;
     margin-left:60vw;
-    border: 7px;
     position: fixed;
 }
-.p-text{
-    width: 15vw;
-    height: 6vh;
-    margin-top: 20vh;
-    margin-left: 25vw;
-}
+
 .p-style{
     font-family: Poppins;
     font-size: 16px;
@@ -136,21 +124,23 @@ button{
     line-height: 27px;
     letter-spacing: 0em;
     text-align: center;
-}
-.text-t{
-    width: 33vw;
-    height: 15vh;
-    margin-left: 10vw;
-    margin-top: 1vh;
+    width: 15vw;
+    height: 2vw;
+    margin-top: 10vw;
+    margin-left: 25vw;
 }
 .h-style{
     font-family: Poppins;
-    font-size: 60px;
+    font-size: 70px;
     font-weight: 600;
     line-height: 72px;
     letter-spacing: 0.1em;
     text-align: left;
     color: var(--color-a);
+    width: 40vw;
+    height: 10vw;
+    margin-left: 10vw;
+    margin-top: 1vh;
 }
 .span-s{
     font-size: 60px;
@@ -159,26 +149,25 @@ button{
     letter-spacing: 0.1em;
     text-align: left;
     color: var(--color-c);
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
 }
 .p-to-p{
     width: 30vw;
-    height: 12vh;
+    height: 10vw;
     margin-left: 10vw;
-    margin-top: 2vh;
-}
-.p-p{
-    font-family: Poppins;
-    font-size: 16px;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    font-size: 20px;
     font-weight: 500;
-    line-height: 27px;
+    line-height: 30px;
     letter-spacing: 0em;
     text-align: left;
     color: var(--color-f);
 }
 .btn-1{
     width: 10vw;
-    height: 6vh;
-    margin-top: 7vh;
+    height: 3vw;
+    margin-top: 2vw;
     margin-left: 10vw;
     border-radius: 80px;
     color: var(--color-b);
@@ -186,32 +175,12 @@ button{
     border: none;
 }
 
-.img-2{
-    width: 700px;
-    height: 600px;
-    margin-left: 900px;
-    margin-top: -300px;
-    padding: 15.56px, 36.19px, 9.92px, 49.58px;
-    position: fixed;
-}
-.img-3{
-    width: 700px;
-    height: 600px;
-    margin-left: 910px;
-    padding: 15.56px, 36.19px, 9.92px, 49.58px;
-    position: fixed;
-    background-image: none;
-}
-.j-j{
-    height: 300px;
-    width: 200px;
-    border: 1px solid var(--color-c);
-}
+
 .box{
     width: 70vw;
-    height: 23vh;
-    margin-top: 5vh;
-    margin-left: 20vw;
+    height: 10vw;
+    margin-left: 22vw;
+    margin-top: 4.05vw;
 }
 .pro-h{
     font-family: Poppins;
@@ -229,23 +198,17 @@ button{
 
 .project-img{
     width: 25vw;
-    height: 40vh;
+    height: 20vw;
     border-radius: 0.2vw;
 }
 .box-1{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    margin-left: 18vw;
-    margin-top: -12vh;
-}
-.project{
-    width: 25vw;
-    height: 60vh;
-    margin-top: 16vh;
-    border-radius: 5px;
+    margin-left: 17vw;
+    margin-top: -4vw;
 }
 .pro-p{
-    margin-top: 1vh;
+    margin-top: 3vw;
     font-family: Poppins;
     font-size: 1.5vw;
     font-weight: 500;
@@ -256,13 +219,20 @@ button{
     height: 4vh;
     margin-left: 18vw;
     text-align: center;
+
 }
 
+.project{
+    width: 25.2vw;
+    height: 30vw;
+    margin-top: 7vw;
+    border-radius: 5px;
+}
 
 .pro-p-2{
     width: 25vw;
     margin-top: 1vh;
-    height: 3vh;
+    height: 2vw;
     font-family: Poppins;
     font-size: 20px;
     font-weight: 500;
@@ -273,7 +243,7 @@ button{
 }
 .pro-p1{
     width: 25vw;
-    height: 14vh;
+    height: 6vw;
     font-family: Poppins;
     font-size: 16px;
     font-weight: 400;
@@ -289,40 +259,37 @@ button{
 }
 .market-box{
     width: 65vw;
-    height: 40vh;
-    margin-top: 2vh;
-    margin-left: 24vw;
+    height: 20.2vw;
+    margin-top: 1vw;
+    margin-left: 25vw;
     border-radius: 5px;
     display: flex;
     gap: 2vw;
 }
 .info-box{
     width: 32vw;
-    height: 377px;
-    top: 269px;
-    left: 36px;
+    height: 20.2vw;
     border-radius: 5px;
-    border: 1px solid var(--color-c);
+    border: 1px solid var(--color-f);
 }
 .mark-h{
     width: 9vw;
-    height: 3vh;
-    margin-top: 35px;
-    margin-left: 43px;
-    border: 0px, 0px, 1px, 0px;
+    height: 1.5vw;
+    margin-top: 2vw;
+    margin-left: 2vw;
     color: var(--color-f);
 }
 .b-r{
     width: 9vw;
-    margin-top: -1vh;
+    margin-top: -0.5vw;
     margin-left: 2vw;
     border: 1.5px solid var(--color-c);
     color: var(--color-c);
 }
 .mark-h-6{
     width: 17vw;
-    height: 3vh;
-    margin-top: 20px;
+    height: 2vw;
+    margin-top: 1vw;
     margin-left: 2vw;
     font-family: Poppins;
     font-size: 20px;
@@ -334,7 +301,7 @@ button{
 }
 .mark-p{
     width: 6vw;
-    height: 2.2vh;
+    height: 1vw;
     margin-left: 43px;  
     color: var(--color-f);
     font-family: Poppins;
@@ -346,9 +313,9 @@ button{
 }
 .mark-p-2{
     width: 28vw;
-    height: 3vh;
+    height: 1.6vw;
     margin-left: 2vw;
-    margin-top: -1vh;
+    margin-top: -0.3vw;
     font-family: Poppins;
     font-size: 16px;
     font-weight: 500;
@@ -359,7 +326,7 @@ button{
 }
 .read-m{
     width: 4vw;
-    height: 3vh;
+    height: 1.5vw;
     margin-top: 12vh;
     margin-left: 2.3vw;
     font-family: Poppins;
@@ -375,14 +342,13 @@ button{
 }
 .hr-1{
     width: 28.5vw;
-    height: 0.9vh;
+    height: 0.4vw;
     margin-left: 2.3vw;
-    padding: 0px, 104.81px, 0px, 0px;
     background: var(--color-d);
 }
 .hr-2{
     width: 22.8vw;
-    height: 0.8vh;
+    height: 0.4vw;
     background: var(--color-c);
 }
 
@@ -390,14 +356,14 @@ button{
 
 .cont-form{
     width: 70vw;
-    height: 75vh;
-    margin-top: -1vh;
+    height: 30vw;
+    margin-top: 6vw;
     margin-left: 20vw;
     border-radius: 5px;
 }
 .cont-h{
     width: 16vw;
-    height: 7vh;
+    height: 3vw;
     margin-left: 24.5vw;
     font-family: Poppins;
     font-size: 50px;
@@ -409,7 +375,7 @@ button{
 }
 .cont-input{
     width: 34.3vw;
-    height: 6.4vh;
+    height: 3vw;
     margin-top: 10.8vh;
     margin-left: 1vw;
     border-radius: 5px;
@@ -419,7 +385,7 @@ button{
 }
 .cont-input-1{
     width: 34.3vw;
-    height: 6.4vh;
+    height: 3vw;
     margin-top: 10.8vh;
     border-radius: 5px;
     border: 1px solid var(--color-d);
@@ -428,7 +394,7 @@ button{
 }
 .cont-input-2{
     width: 70vw;
-    height: 6.4vh;
+    height: 3vw;
     margin-top: 20px;
     border-radius: 5px;
     border: 1px solid var(--color-d);
@@ -437,7 +403,7 @@ button{
 }
 .cont-text{
     width: 70vw;
-    height: 15vh;
+    height: 10vw;
     margin-top: 20px;
     border-radius: 5px;
     border: 1px solid var(--color-d);
@@ -446,7 +412,7 @@ button{
 }
 .cont-btn{
     width: 10.4vw;
-    height: 6vh;
+    height: 3vw;
     margin-top: 20px;
     margin-left: 500px;
     border-radius: 5px;
@@ -461,13 +427,13 @@ button{
 }
 .cont-copy{
     width: 70vw;
-    margin-top: 10vh;
+    margin-top: 10vw;
     border-top: 1px solid var(--color-d); 
     margin-left: 20vw;
 }
 .cont-copy-p{
     width: 16.1vw;
-    height: 2vh;
+    height: 3vw;
     margin-top: 4vh;
     opacity: 0.5px;
 }
@@ -493,7 +459,7 @@ button{
 }
 
 .modal-img{
-    height: 60vh;
+    height: 31vw;
     width: 38vw;
 }
 
@@ -516,14 +482,14 @@ button{
 
 .modal-p{
     width: 28vw;
-    height: 50vh;
+    height: 25.3vw;
     gap: 0px;
     opacity: 0px;
     color: var(--color-f);
     font-family: Poppins;
     font-size: 18px;
     font-weight: 400;
-    line-height: 35px;
+    line-height: 34px;
     text-align: justified;
 
 }
@@ -541,6 +507,370 @@ button{
     color: #A2A2A2;
 }
 
+
+@media  screen and (max-width: 1440px){
+    .sidebar-container{
+        width: 17vw;
+        height: 100vw;
+        padding: 0px, 2px, 236px, 0px;
+        border: 0px, 2px, 0px, 0px;
+        background: var(--color-d);
+        position: fixed;
+    }
+
+    .lli-1 {
+        width: 3vw;
+        height: 1vw;
+        margin-top: 2.5vh;
+        margin-left: 3vw;
+        font-size: 12px;
+        font-weight: 370;
+        line-height: 12px;
+    }
+    .ill-1{
+        width: 12vw;
+        height: 3.5vw;
+    }
+    .bi{
+        font-size:20px;
+    }
+    .p-style{
+        font-family: Poppins;
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 27px;
+        letter-spacing: 0em;
+        text-align: center;
+        width: 15vw;
+        height: 4vw;
+    }
+    .h-style{
+        font-family: Poppins;
+        font-size: 42px;
+        font-weight: 600;
+        line-height: 50px;
+        letter-spacing: 0.1em;
+        text-align: left;
+        color: var(--color-a);
+        width: 30vw;
+        height: 8vw;
+        margin-top: -2vw;
+        margin-left: 10vw;
+    }
+
+
+    .span-s{
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 40px;
+        letter-spacing: 0.1em;
+        text-align: left;
+        color: var(--color-c);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    }
+    .p-to-p{
+        width: 30vw;
+        height: 10vw;
+        margin-left: 10vw;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 17px;
+        font-weight: 500;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-top: 2vw;
+        color: var(--color-f);
+    }
+
+    .btn-1{
+        width: 10vw;
+        height: 3.5vw;
+    }
+
+
+    .cont-btn{
+        width: 10.4vw;
+        height: 4vw;
+        margin-top: vw;
+        margin-left: 30vw;
+    }
+
+    .cont-h{
+        width: 30vw;
+        height: 6vw;
+        margin-left: 40vw;
+        margin-top: 2vw;
+    }
+
+
+    .cont-form{
+        width: 70vw;
+        height: 20vw;
+        margin-top: 2vw;
+    }
+
+
+    .cont-copy{
+        width: 70vw;
+        margin-top: 13vw;
+    }
+    .cont-copy-p{
+        width: 30vw;
+        height: 3vw;
+        margin-top: 2vh;
+    }
+
+    .cont-btn{
+        width: 9vw;
+        height: 3vw;
+        margin-top: 2vw;
+    }
+
+}
+@media  screen and (max-width: 1024px){
+    .b-container{
+        padding-bottom: 30.5vw;
+    }
+    .lli-1 {
+        width: 3vw;
+        height: 0.9vw;
+        margin-top: 2vh;
+        margin-left: 3vw;
+        font-size: 10px;
+        font-weight: 370;
+        line-height: 12px;
+    }
+    .ill-1{
+        width: 12vw;
+        height: 3.5vw;
+        list-style: none; 
+        display: flex;
+        border-radius: 5px;
+        margin-top: 2rem;
+        border: 1px solid gray;
+        color: var(--color-f);
+    }
+    .bi{
+        font-size:15px;
+    }
+    
+    .sidebar-container{
+        width: 17vw;
+        height: 100vw;
+        padding: 0px, 2px, 236px, 0px;
+        border: 0px, 2px, 0px, 0px;
+        background: var(--color-d);
+        position: fixed;
+    }
+
+
+    .p-style{
+        font-family: Poppins;
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 27px;
+        letter-spacing: 0em;
+        text-align: center;
+        width: 20vw;
+        height: 7vw;
+        margin-top: 8vw;
+        margin-left: 28vw;
+    }
+    .h-style{
+        font-family: Poppins;
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 50px;
+        letter-spacing: 0.1em;
+        text-align: left;
+        color: var(--color-a);
+        width: 50vw;
+        height: 13vw;
+        margin-top: -4vw;
+        margin-left: 10vw;
+    }
+
+
+    .span-s{
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 40px;
+        letter-spacing: 0.1em;
+        text-align: left;
+        color: var(--color-c);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    }
+    .p-to-p{
+        width: 50vw;
+        height: 15vw;
+        margin-left: 10vw;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-top: -2vw;
+        color: var(--color-f);
+    }
+
+    .btn-1{
+        width: 15vw;
+        height: 5vw;
+        margin-top: -vw;
+        margin-left: 10vw;
+        border-radius: 80px;
+        color: var(--color-b);
+        background: var(--color-c);
+        border: none;
+    }
+    
+    .log h1{
+        margin-top: 1vw;
+        margin-left: 2vw;
+        color: var(--color-f);
+        font-family: Poppins;
+        font-size: 50px;
+        font-weight: 700;
+        line-height: 75px;
+        letter-spacing: 0em;
+        text-align: left;
+    }
+    .nav-1{
+        margin-top: 5vw;
+        margin-left: -1vw;
+    }
+    .color-b{
+        width: 3vw;
+        height: 3.3vw;
+    }
+    
+    .box-1{
+        display: grid;
+        grid-template-columns: repeat(3, 1fr);
+        margin-left: 19vw;
+        margin-top: -2vw;
+    }
+    .project{
+        width: 25.2vw;
+        height: 30vw;
+        margin-top: 7vw;
+    }
+    
+    .pro-p-2{
+        width: 25vw;
+        margin-top: 1vh;
+        height: 2vw;
+    }
+    .pro-p1{
+        width: 25vw;
+        height: 15.5vw;
+        margin-top: 4vw;
+    }
+
+    .project{
+        height: 43vw;
+    }
+
+
+
+    .market-box{
+        width: 70vw;
+        height: 32vw;
+        margin-top: 1vw;
+        margin-left: 25vw;
+        border-radius: 5px;
+        display: flex;
+        gap: 2vw;
+    }
+    .info-box{
+        width: 34vw;
+        height: 32vw;
+        border-radius: 5px;
+        border: 1px solid var(--color-f);
+    }
+    .mark-h{
+        width: 13vw;
+        height: 1.5vw;
+        margin-top: 2vw;
+        margin-left: 2vw;
+        color: var(--color-f);
+    }
+    .b-r{
+        width: 13vw;
+        margin-top: 1vw;
+        margin-left: 2vw;
+        border: 1.5px solid var(--color-c);
+        color: var(--color-c);
+    }
+    .mark-h-6{
+        width: 27vw;
+    }
+    .mark-p{
+        width: 10vw;
+        height: 2vw;
+        margin-left: 3vw;
+    }
+    .mark-p-2{
+        width: 28vw;
+        height: 13vw;
+        font-size: 14px;;
+    }
+    .read-m{
+        width: 8vw;
+        height: 3vw;
+        margin-top: -3vh;
+    }
+    .margin{
+        margin-left: 12vw;
+    }
+    .hr-1{
+        width: 28.5vw;
+        height: 0.4vw;
+        margin-left: 2.3vw;
+        background: var(--color-d);
+    }
+    .hr-2{
+        width: 22.8vw;
+        height: 0.4vw;
+        background: var(--color-c);
+    }
+
+    .cont-form{
+        width: 75vw;
+        height: 34vw;
+        margin-top: 4vw;
+    }
+
+    .cont-btn{
+        width: 10.4vw;
+        height: 4vw;
+        margin-top: 4vw;
+        margin-left: 30vw;
+    }
+
+    .cont-h{
+        width: 30vw;
+        height: 6vw;
+        margin-left: 40vw;
+        margin-top: 4vw;
+    }
+
+    .cont-copy{
+        width: 70vw;
+        margin-top: 10vw;
+        border-top: 1px solid var(--color-d); 
+        margin-left: 20vw;
+    }
+    .cont-copy-p{
+        width: 30vw;
+        height: 3vw;
+        margin-top: 4vh;
+        opacity: 0.5px;
+    }
+}
 @media  screen and (max-width: 786px) {
     .sidebar-container{
         display: none;
@@ -585,10 +915,71 @@ button{
     }
     .b-container{
     width: 100vw;
+    padding-bottom: 40vw;
     background: var(--color-b);
     }
 
+    .p-style{
+        font-family: Poppins;
+        font-size: 10px;
+        font-weight: 500;
+        line-height: 27px;
+        letter-spacing: 0em;
+        text-align: center;
+        width: 20vw;
+        height: 7vw;
+        margin-top: 8vw;
+        margin-left: 15vw;
+    }
+    .h-style{
+        font-family: Poppins;
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 50px;
+        letter-spacing: 0.1em;
+        text-align: left;
+        color: var(--color-a);
+        width: 55vw;
+        height: 13vw;
+        margin-top: -4vw;
+        margin-left: -5vw;
+    }
 
+
+    .span-s{
+        font-size: 40px;
+        font-weight: 600;
+        line-height: 40px;
+        letter-spacing: 0.1em;
+        text-align: left;
+        color: var(--color-c);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    }
+    .p-to-p{
+        width: 50vw;
+        height: 25vw;
+        margin-left: -4vw;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 18px;
+        font-weight: 500;
+        line-height: 30px;
+        letter-spacing: 0em;
+        text-align: left;
+        margin-top: 4vw;
+        color: var(--color-f);
+    }
+
+    .btn-1{
+        width: 22vw;
+        height: 7vw;
+        margin-top: 4vw;
+        margin-left: -5vw;
+        border-radius: 80px;
+        color: var(--color-b);
+        background: var(--color-c);
+        border: none;
+    }
 
     .box{
         width: 35vw;
@@ -605,7 +996,7 @@ button{
     }
     .project{
         width: 43vw;
-        height: 58vh;
+        height: 60vw;
         margin-top: 6vh;
         margin-left: 1vw;
     }
@@ -623,7 +1014,9 @@ button{
 
     .pro-p1{
         width: 43vw;
+        height: 20vw;
         text-align: left;
+        margin-top: 5vw;
     }
     .pro-p{
         width: 50vw;
@@ -665,7 +1058,6 @@ button{
         margin-top: -10vh;
         margin-left: 20vw;
         border-radius: 5px;
-        border: 1px solid var(--color-c);
     }
 
     .cont-h{
@@ -676,7 +1068,6 @@ button{
         font-size: 50px;
         font-weight: 600;
         line-height: 65px;
-        border: 1px solid var(--color-cs);
         letter-spacing: 0em;
         text-align: center;
         color: var(--color-f);
@@ -726,25 +1117,75 @@ button{
         margin-left: 3vw;
     }
 
+    .modal-container{
+        background: var(--color-d);
+        width: 100vw;
+        margin-left:-17.5vw;
+    }
+    
+    .modal-box{
+        display: flex;
+        gap: 1vw;
+    }
+    
+    .modal-img{
+        height: 40vh;
+        width: 50vw;
+    }
+    
+    .modal-text{
+        width: 50vw;
+        height: 40vh;
+    }
+    
+    .modal-h1{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 20px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        width: 50vw;
+        height: 10vh;
+        gap: 0px;
+        opacity: 0px;
+        color: var(--color-f);
+    }
+    
+    .modal-p{
+        width: 45vw;
+        height: 30vw;
+        gap: 10px;
+        opacity: 0.1px;
+        margin-top: -4vh;
+        color: var(--color-f);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 11px;
+        font-weight: 400;
+        line-height: 16px;
+        text-align: justifie
+    
+    }
+
 }
 
-@media  screen and (max-width: 600px) {
+
+@media  screen and (max-width: 425px) {
     .sidebar-container{
         display: none;
     }
     .show-1{
         display: block;
+        width: 100vw;
     }
     .navbar-collapse {
     background: var(--color-c);
-    width: 100%;
+    width: 100vw;
     position: absolute;
     }
     
     .navbar-collapse{
-        margin-top: 46vh;
-        width: 100%;
-        margin-left: -2.3vw;
+        margin-top: 99vw;
+        margin-left: -2.9vw;
     }
     .color{
         background: var(--color-c);
@@ -772,9 +1213,70 @@ button{
     }
     .b-container{
     width: 100vw;
+    padding-bottom: 50vw;
     background: var(--color-b);
     }
 
+    .p-style{
+        font-family: Poppins;
+        font-size: 10px;
+        font-weight: 500;
+        line-height: 27px;
+        letter-spacing: 0em;
+        text-align: center;
+        width: 50vw;
+        height: 2vw;
+        margin-top: 12vw;
+        margin-left: 15vw;
+    }
+    .h-style{
+        font-family: Poppins;
+        font-size: 35px;
+        font-weight: 600;
+        line-height: 40px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: var(--color-a);
+        width: 59vw;
+        height: 15vw;
+        margin-top: 4vw;
+        margin-left: -5vw;
+    }
+
+
+    .span-s{
+        font-size: 35px;
+        font-weight: 600;
+        line-height: 40px;
+        letter-spacing: 0.1em;
+        text-align: left;
+        color: var(--color-c);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+
+    }
+    .p-to-p{
+        width: 50vw;
+        height: 25vw;
+        margin-left: -4vw;
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 15px;
+        font-weight: 500;
+        line-height: 20px;
+        letter-spacing: 0em;
+        text-align: left;
+        color: var(--color-f);
+    }
+
+    .btn-1{
+        width: 22vw;
+        height: 7vw;
+        margin-top: 2vw;
+        margin-left: -5vw;
+        border-radius: 80px;
+        color: var(--color-b);
+        background: var(--color-c);
+        border: none;
+    }
 
     .box{
         width: 70vw;
@@ -805,10 +1307,12 @@ button{
 
     .pro-p-2{
         width:70vw;
+        margin-top: 3vh;
     }
 
     .pro-p1{
         width: 70vw;
+        margin-top: 6vh;
     }
     .pro-p{
         width: 50vw;
@@ -845,26 +1349,117 @@ button{
 
 
     .cont-form{
-        width: 70vw;
-        height: 75vh;
-        margin-top: -10vh;
-        margin-left: 20vw;
+        width: 90vw;
+        margin-top: 8vw;
+        margin-left: 5vw;
         border-radius: 5px;
-        border: 1px solid var(--color-c);
     }
 
     .cont-h{
-        width: 20vw;
-        height: 7vh;
-        margin-left: 24.5vw;
+        width: 50vw;
+        margin-left: 18vw;
         font-family: Poppins;
         font-size: 50px;
         font-weight: 600;
         line-height: 65px;
-        border: 1px solid var(--color-cs);
         letter-spacing: 0em;
-        text-align: center;
         color: var(--color-f);
+    }
+
+
+    .cont-input{
+        width: 42vw;
+        height: 9vw;
+        margin-top: 10.8vh;
+        margin-left: 1vw;
+        border-radius: 5px;
+        border: 1px solid var(--color-d);
+        background: none;
+        color: var(--color-f);
+    }
+    .cont-input-1{
+        width: 42vw;
+        height: 9vw;
+        margin-top: 10.8vh;
+        border-radius: 5px;
+        border: 1px solid var(--color-d);
+        background: none;
+        color: var(--color-f);
+    }
+    .cont-input-2{
+        width: 86vw;
+        height: 9vw;
+        margin-top: 20px;
+        border-radius: 5px;
+        border: 1px solid var(--color-d);
+        background: none;
+        color: var(--color-f);
+    }
+    .cont-text{
+        width: 86vw;
+        height: 10vw;
+        margin-top: 20px;
+        border-radius: 5px;
+        border: 1px solid var(--color-d);
+        background: none;
+        color: var(--color-f);
+    }
+    .cont-btn{
+        width: 15vw;
+        height: 6vw;
+        margin-left: 35vw;
+        margin-top: 10vw;
+        border-radius: 5px;
+        background: var(--color-c);
+        cursor: pointer;
+        transition: filter 0.3s ease 0.3s;
+    }
+    .modal-container{
+        background: var(--color-d);
+        width: 108vw;
+    }
+    
+    .modal-box{
+        display: flex;
+        gap: 1vw;
+    }
+    
+    .modal-img{
+        height: 40vh;
+        width: 50vw;
+    }
+    
+    .modal-text{
+        width: 50vw;
+        height: 40vh;
+    }
+    
+    .modal-h1{
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 13px;
+        font-weight: 500;
+        line-height: 20px;
+        text-align: left;
+        width: 50vw;
+        height: 10vh;
+        gap: 0px;
+        opacity: 0px;
+        color: var(--color-f);
+    }
+    
+    .modal-p{
+        width: 50vw;
+        height: 40vh;
+        gap: 10px;
+        opacity: 0px;
+        margin-top: -4vh;
+        color: var(--color-f);
+        font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+        font-size: 9px;
+        font-weight: 400;
+        line-height: 10px;
+        text-align: justifie
+    
     }
 }
 
